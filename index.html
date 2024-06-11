@@ -1,0 +1,447 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link rel="icon" type="image/x-icon" href="/Images/Icons/favicon.png">
+    <title>Oham Shakya</title>
+</head>
+
+<body>
+    <nav class="p-5 bg-white shadow md:flex md:items-center md:justify-between">
+        <div class="flex justify-between items-center">
+            <div class="logo">
+                <h2 class="font-bold">Oham Shakya</h2>
+            </div>
+            <span class="text-3xl cursor-pointer mx-2 md:hidden block">
+                <ion-icon name="menu" onclick="Menu(this)"></ion-icon>
+            </span>
+        </div>
+
+        <ul
+            class="md:flex md:items-center z-[-1] md:z-auto md:static absolute bg-white w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500">
+            <li class="mx-4 my-6 md:my-0">
+                <a href="#about" class="text-xl lg:text-base  duration-500">ABOUT</a>
+            </li>
+            <li class="mx-4 my-6 md:my-0">
+                <a href="#skill" class="text-xl lg:text-base duration-500">SKILLS</a>
+            </li>
+            <li class="mx-4 my-6 md:my-0">
+                <a href="#project" class="text-xl lg:text-base  duration-500">PROJECT</a>
+            </li>
+            <li class="mx-4 my-6 md:my-0">
+                <a href="contact" class="text-xl lg:text-base  duration-500">CONTACT</a>
+            </li>
+
+
+
+            <h2 class=""></h2>
+        </ul>
+    </nav>
+
+    <!-- ----------------------main section-------------------------- -->
+    <div class="main-section flex flex-col justify-center gap-6 items-center p-5 mt-14 lg:flex lg:flex-row lg:gap-16 lg:p-5">
+
+        <div class="image-section">
+            <img src="./Images/main-images/profile5.jpg" class="rounded-full md:rounded-full md:w-72 md:h-72 w-72 h-72 lg:w-80 lg:h-80 "
+                alt="picture">
+        </div>
+        <div class="text-section mt-4">
+            <div class="text-wrapper flex flex-col gap-3">
+                <h3 class="text-center lg:text-center font-semibold text-base">Hello I'm</h3>
+                <h1 class="text-center font-bold text-4xl">Oham Shakya</h1>
+                <h2 class="text-center font-semibold text-xl text-gray-600">Java | Tailwind | SQL</h2>
+                <div class="button-wrapper lg:flex lg:gap-4 lg:justify-center flex gap-4 justify-center">
+                    <div class="button-One">
+                        <a href="./Images/cv/final.pdf">
+                            <button class="border border-black p-2 rounded-full ">Download
+                                cv</button>
+                        </a>
+                    </div>
+                    <div class="button-Two">
+                        <button
+                            class="b hover:bg-black hover:text-white lg:font-semibold border border-black p-2 rounded-full">Contact
+                            me</button>
+                    </div>
+                </div>
+                <div class="social-wrapper flex gap-5 justify-center">
+                    <div class="linkedIn">
+                        <a href="https://www.linkedin.com/in/oham-shakya-5aab031b5/?originalSubdomain=np"
+                            target="_blank">
+                            <img src="./Images/Icons/linkedin.svg" class="w-9 h-9 lg:w-9 lg:h-9" alt="linkedin">
+                        </a>
+                    </div>
+                    <div class="github">
+                        <a href="https://github.com/ohamshakya" target="_blank">
+                            <img src="./Images/Icons/github.svg" class="w-9 h-9 lg:w-9 lg:h-9" alt="github">
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- ----------------------About me ---------------------- -->
+    <div class="about-wrapper lg:mt-10 lg:p-10 mt-10 p-10" id="about">
+        <h3 class="lg:text-center text-center">Know about me</h3>
+        <h2 class="lg:text-center lg:font-bold text-3xl text-center font-bold">About me</h2>
+
+        <div class="about-content_wrapper lg:flex lg:w-4\5 lg:flex-row lg:gap-5 lg:justify-between lg:mt-5 lg:p-5 flex flex-col justify-center items-center p-4 lg:ml-15
+        ">
+            <div class="image-section">
+                <img src="./Images/main-images/profile.jpg" class="lg:w-64 h-64 lg:h-72 lg:rounded-2xl rounded-2xl" alt="prof">
+
+            </div>
+            <div class="box-section lg:flex lg:flex-col lg:w-4/5  flex flex-col justify-center p-2">
+                <div class="box-second_section lg:flex lg:flex-row lg:gap-5 lg:p-4 flex gap-5 p-5">
+                    <div class="experience border border-black lg:border lg:border-black lg:rounded-2xl lg:w-72 lg:h-36 rounded-3xl w-44 h-56 flex flex-col justify-center items-center">
+
+                        <div class="icon lg:flex lg:justify-center flex justify-center">
+                            <img src="./Images/Icons/exp.svg" class="w-10 h-10 lg:w-10 lg:h-10 lg:mt-2" alt="exp">
+                        </div>
+                        <h2 class="text-center font-bold">Experience</h2>
+                        <p class="text-center">Looking for an internship</p>
+                        <p class="text-center">Java Developer</p>
+
+                    </div>
+                    <div class="education lg:border lg:border-black lg:w-80 lg:h-36 border border-black w-40 h-56 rounded-3xl flex flex-col justify-center items-center">
+                        <div class="icon lg:flex lg:justify-center flex justify-center">
+                            <img src="./Images/Icons/exp.svg" class="w-10 h-10 lg:w-10 lg:h-10 lg:mt-2" alt="exp">
+                        </div>
+                        <h2 class="text-center font-bold">Education</h2>
+                        <p class="text-center">Computer Application</p>
+                        <p class="text-center">2020 batch</p>
+                    </div>
+                </div>
+                <div class="content-section lg:mt-1">
+                    <p class="p-5 ml-5 text-lg lg:text-base lg:text-wrap lg:mr-9">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis
+                        mollitia,
+                        dolore, cupiditate
+                        amet praesentium, laborum assumenda laudantium unde soluta dignissimos molestias error nisi
+                        reprehenderit consequuntur? Laboriosam maiores debitis impedit error quasi minus eligendi odit
+                        iusto
+                        laborum, quia voluptates.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--------------------------Skills Section------------------------ -->
+    <div class="skills-section lg:p-10 p-10" id="skill">
+        <div class="head">
+            <h2 class="lg:text-center lg:font-bold lg:text-3xl lg:mt-10 text-center font-bold text-3xl mt-10 ">Skills
+            </h2>
+        </div>
+        <div
+            class="skills-box_wrapper md:flex  lg:flex lg:flex-row lg:justify-center lg:gap-9 lg:p-5 flex flex-col justify-center gap-5 mt-10">
+
+            <div class="all-wrapper lg:flex lg:flex-col lg:gap-10 flex flex-col justify-center items-center gap-10 ">
+                <!----------------------Programming box -----------------  -->
+                <div
+                    class="programming-lang w-80 h-[28rem] md:w-80 md:h-[28rem] border  border-black rounded-3xl  lg:w-96 lg:h-56 lg:border lg:border-black lg:rounded-3xl lg:p-4 flex justify-center flex-col">
+                    <h3 class="lg:text-center lg:font-bold lg:text-xl text-center text-lg font-bold">Programming
+                        languages</h3>
+                    <div class="all_wrapper p-4 lg:flex lg:flex-col lg:gap-4 lg:p-4  ">
+                        <div class="programming_wrapper lg:flex lg:flex-row lg:justify-between flex flex-col items-center gap-4">
+                            <div class="programming_item1 lg:flex w lg:items-center lg:gap-3 flex items-center gap-3">
+                                <div class="icon-right">
+                                    <img src="./Images/Icons/right-icon.svg" class="w-6 h-6 lg:w-6 lg:h-6 mr-2"
+                                        alt="right">
+                                </div>
+                                <div class="HTML">
+                                    <h2 class="font-semibold">HTML</h2>
+                                    <p class="text-xs">Intermediate</p>
+
+                                </div>
+                            </div>
+                            <div class="programming_item2 lg:flex lg:items-center lg:gap-3 flex items-center gap-3">
+                                <div class="icon-right">
+                                    <img src="./Images/Icons/right-icon.svg" class="w-6 h-6 lg:w-6 lg:h-6 mr-2"
+                                        alt="right">
+                                </div>
+                                <div class="CSS">
+                                    <h2 class="font-semibold mr-12">CSS</h2>
+                                    <p class="text-xs">Intermediate</p>
+                                </div>
+                            </div>
+                        </div>
+                        <br class="lg:hidden">
+                        <div
+                            class="programming_wrapper lg:flex lg:flex-row lg:justify-between flex flex-col items-center justify-between gap-4">
+                            <div class="programming_item3 lg:flex lg:items-center lg:gap-3 flex items-center gap-3">
+                                <div class="icon-right">
+                                    <img src="./Images/Icons/right-icon.svg" class="w-6 h-6 lg:w-6 lg:h-6 mr-2"
+                                        alt="right">
+                                </div>
+                                <div class="php">
+                                    <h2 class="font-semibold">PHP</h2>
+                                    <p class="text-xs">Intermediate</p>
+                                </div>
+                            </div>
+                            <div class="programming_item4 lg:flex lg:items-center lg:gap-3 flex items-center gap-3">
+                                <div class="icon-right">
+                                    <img src="./Images/Icons/right-icon.svg" class="w-6 h-6 lg:w-6 lg:h-6 lg:mr-4"
+                                        alt="right">
+                                </div>
+                                <div class="dotnet">
+                                    <h2 class="font-semibold mr-2">DOTNET</h2>
+                                    <p class="text-xs">Basic</p>
+                                </div>
+                            </div>
+                        </div>
+                        <br class="lg:hidden">
+                        <div class="programming_wrapper lg:flex lg:flex-row lg:justify-between flex flex-col items-center gap-3">
+                            <div class="programming_item5 lg:flex lg:items-center lg:gap-3 flex items-center gap-3">
+                                <div class="icon-right">
+                                    <img src="./Images/Icons/right-icon.svg" class="w-6 h-6lg:w-6 lg:h-6 mr-2"
+                                        alt="right">
+                                </div>
+                                <div class="java">
+                                    <h2 class="font-semibold">JAVA</h2>
+                                    <p class="text-xs">Intermediate</p>
+                                </div>
+                            </div>
+                            <div class="programming_item6 lg:flex lg:items-center lg:gap-3 flex items-center gap-3">
+                                <div class="icon-right">
+                                    <img src="./Images/Icons/right-icon.svg" class="w-6 h-6 lg:w-6 lg:h-6 mr-2"
+                                        alt="right">
+                                </div>
+                                <div class="javascript">
+                                    <h2 class="font-semibold text-sm">JAVASCRIPT</h2>
+                                    <p class="text-xs">Basic</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br class="lg:hidden">
+            <!-- --------------Tools and framework --------------------------- -->
+            <div
+                class="tools w-80 h-[28rem] lg:w-96 border border-black rounded-3xl lg:h-56 lg:border lg:border-black lg:rounded-3xl lg:p-4 flex justify-center items-center flex-col">
+                <h3 class="text-center font-bold text-xl">Tools & Framework</h3>
+                <div class="all_wrapper p-4 lg:flex lg:flex-col lg:gap-4 lg:p-4">
+                    <div class="programming_wrapper lg:flex lg:flex-row lg:justify-between flex flex-col items-center gap-4">
+                        <div class="programming_item1 lg:flex lg:justify-between lg:items-center lg:gap-3 flex items-center gap-3">
+                            <div class="icon-right">
+                                <img src="./Images/Icons/right-icon.svg" class="w-6 h-6lg:w-6 lg:h-6 mr-2" alt="right">
+                            </div>
+                            <div class="HTML">
+                                <h2 class="font-semibold">Git</h2>
+                                <p class="text-xs">Intermediate</p>
+
+                            </div>
+                        </div>
+                        <div class="programming_item2 lg:flex lg:items-center lg:gap-3 flex items-center gap-3">
+                            <div class="icon-right">
+                                <img src="./Images/Icons/right-icon.svg" class="w-6 h-6 lg:w-6 lg:h-6 ml-6" alt="right">
+                            </div>
+                            <div class="CSS">
+                                <h2 class="font-semibold mr-12">Tailwind</h2>
+                                <p class="text-xs">Intermediate</p>
+                            </div>
+                        </div>
+                    </div>
+                    <br class="lg:hidden">
+                    <div
+                        class="programming_wrapper lg:flex lg:flex-row lg:justify-between flex flex-col items-center justify-around gap-4">
+                        <div class="programming_item3 lg:flex lg:items-center lg:gap-3 flex items-center gap-3">
+                            <div class="icon-right">
+                                <img src="./Images/Icons/right-icon.svg" class="w-6 h-6lg:w-6 lg:h-6 mr-4" alt="right">
+                            </div>
+                            <div class="php">
+                                <h2 class="font-semibold">Xampp</h2>
+                                <p class="text-xs">Intermediate</p>
+                            </div>
+                        </div>
+                        <div class="programming_item4 lg:flex lg:items-center lg:gap-3 flex items-center gap-3">
+                            <div class="icon-right">
+                                <img src="./Images/Icons/right-icon.svg" class="w-6 h-6lg:w-6 lg:h-6 mr-4" alt="right">
+                            </div>
+                            <div class="dotnet">
+                                <h2 class="font-semibold mr-4">Github</h2>
+                                <p class="text-xs">Basic</p>
+                            </div>
+                        </div>
+                    </div>
+                    <br class="lg:hidden">
+                    <div class="programming_wrapper lg:flex lg:flex-row lg:justify-between flex flex-col justify-center items-center gap-3">
+                        <div class="programming_item5 lg:flex lg:items-center lg:gap-3 flex items-center gap-3">
+                            <div class="icon-right">
+                                <img src="./Images/Icons/right-icon.svg" class="w-6 h-6lg:w-6 lg:h-6 ml-4" alt="right">
+                            </div>
+                            <div class="java">
+                                <h2 class="font-semibold">Intellij idea</h2>
+                                <p class="text-xs">Intermediate</p>
+                            </div>
+                        </div>
+                        <div class="programming_item6 lg:flex lg:items-center lg:gap-3 flex items-center gap-3">
+                            <div class="icon-right">
+                                <img src="./Images/Icons/right-icon.svg" class="w-6 h-6 lg:w-6 lg:h-6 mr-6" alt="right">
+                            </div>
+                            <div class="javascript">
+                                <h2 class="font-semibold text-sm">Vscode</h2>
+                                <p class="text-xs">Basic</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -------------Projects start------------------------------- -->
+    <div class="projects mt-10 lg:p-10 lg:mt-5" id="project">
+        <div class="head">
+            <h2 class="text-center font-bold text-3xl">Projects</h2>
+        </div>
+        <div class="project_wrapper lg:flex lg:flex-row lg:justify-center lg:gap-9 lg:p-9 flex flex-col justify-center gap-9 p-9 ">
+            <div class="forTwo flex justify-center gap-9">
+                <div
+                    class="project_one lg:border lg:border-black lg:rounded-lg lg:w-64 lg:h-64 lg:p-4 border border-black w-1\2 rounded-3xl h-80 p-4">
+                    <div class="image">
+                        <img src="./Images/project-images/projectimage_one.jpeg" class="h-24 lg:h-36 rounded-3xl"
+                            alt="project_front">
+                    </div>
+                    <h3 class="text-center font-semibold lg:mt-2 mt-2">Recipe Webpage tailwind</h3>
+                    <div
+                        class="button_wrapper lg:flex lg:flex-row lg:justify-center lg:gap-9 lg:mt-4 flex flex-col justify-center items-center gap-4 mt-4">
+                        <div class="buttonOne">
+                            <a href="https://github.com/ohamshakya/RecipeChallenge">
+                                <button class="border border-black lg:rounded-lg lg:p-1 p-2 rounded-3xl">Github</button>
+                            </a>
+                        </div>
+                        <div class="buttonTwo">
+                            <button class="border border-black lg:rounded-lg lg:p-1 p-1 rounded-3xl">Live Demo</button>
+
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="project_two lg:border lg:border-black lg:rounded-lg lg:w-64 lg:h-64 lg:p-4 border border-black rounded-3xl w-[67%] h-80 p-4">
+                    <div class="image">
+                        <img src="./Images/project-images/image-two.jpg" class="lg:h-36 lg:w-64 rounded-3xl h-24 w-60"
+                            alt="vehicle">
+
+                    </div>
+                    <h3 class="text-center font-semibold mt-2">Vehicle Parking System</h3>
+                    <div
+                        class="button_wrapper lg:flex lg:flex-row lg:justify-center lg:gap-9 lg:mt-4 mt-4 flex flex-col justify-center items-center gap-3">
+                        <div class="buttonOne">
+                            <a href="https://github.com/ohamshakya/project">
+                                <button
+                                    class="lg:border lg:border-black border border-black lg:rounded-lg lg:p-1 p-2 rounded-3xl">Github</button>
+                            </a>
+
+                        </div>
+                        <div class="buttonTwo">
+                            <a href="">
+                                <button
+                                    class="lg:border lg:border-black lg:rounded-lg border border-black lg:p-1 p-1 rounded-3xl">Live
+                                    Demo</button>
+                            </a>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="project_three lg:border lg:border-black lg:rounded-lg lg:w-64 lg:h-64 lg:p-4 w-72 border border-black rounded-3xl flex flex-col justify-center p-4">
+                <div class="image">
+                    <img src="./Images/project-images/facebook-project.jpg"
+                        class="lg:h-36 lg:w-64 h-64 rounded-2xl w-64" alt="facebook">
+                </div>
+                <h3 class="text-center font-semibold mt-2">Facebook Clone</h3>
+                <div
+                    class="button_wrapper lg:flex lg:justify-center lg:gap-9 lg:mt-4 flex justify-center gap-4 items-center mt-4">
+                    <div class="buttonOne">
+                        <button
+                            class="lg:border lg:border-black lg:rounded-lg border border-black rounded-3xl lg:p-1 p-2">Github</button>
+                    </div>
+                    <div class="buttonTwo">
+                        <button
+                            class="lg:border lg:border-black lg:rounded-lg border border-black rounded-3xl lg:p-1 p-2">Live
+                            Demo</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- -----------------------Contact me--------------------------------- -->
+    <div class="contact mt-10" id="contact">
+        <div class="head">
+            <p class="text-center text-sm">Get in touch</p>
+            <h2 class=" text-center font-bold text-3xl">Contact Me</h2>
+        </div>
+        <div
+            class="contact-me_wrapper lg:flex lg:justify-center lg:items-center lg:p-10 flex justify-center items-center p-6">
+            <div
+                class="contact-me border border-black rounded-3xl lg:border lg:border-black lg:rounded-2xl lg:w-[365px] lg:h-14 w-[375px] h-14">
+                <div class="email-contact_wrapper  flex">
+                    <div class="email_wrapper flex items-center gap-2 p-4">
+                        <div class="email_pi">
+                            <img src="./Images/Icons/email.svg" class="w-9 h-9 lg:w-6 lg:h-6" alt="email">
+                        </div>
+                        <div class="email">
+                            <p class="text-xs font-semibold">ohamshakya40@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="linkedin lg:flex lg:items-center lg:gap-2 flex items-center gap-2">
+
+                        <div class="linkedin_image">
+                            <img src="./Images/Icons/linkedin.svg" class="w-6 h-6 lg:w-6 lg:h-6" alt="linkedin">
+                        </div>
+                        <div class="linkedin-content">
+                            <a href="https://www.linkedin.com/in/oham-shakya-5aab031b5/?originalSubdomain=np"
+                                target="_blank">
+                                <p class="text-xs font-semibold">Oham Shakya</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------------footer---------------------------- -->
+    <div class="footer-wrapper lg:flex lg:flex-col lg:justify-center lg:items-center flex flex-col justify-center items-center p-4 gap-3" id="footer">
+        <ul class=" flex flex-col gap-6 lg:flex lg:flex-row">
+            <li>
+                <a href="#" class="font-semibold">About</a>
+            </li>
+            <li>
+                <a href="#" class=" font-semibold">Skills</a>
+            </li>
+            <li>
+                <a href="#" class=" font-semibold">Projects</a>
+            </li>
+            <li>
+                <a href="#" class=" font-semibold">Contact</a>
+            </li>
+        </ul>
+        <div class="content lg:mt-5">
+            <p class="text-center text-xs">Copyright &copy; Oham Shakya- All rights reserved</p>
+        </div>
+    </div>
+
+
+    <script>
+        function Menu(e) {
+            let list = document.querySelector('ul');
+            e.name === 'menu' ? (e.name = "close", list.classList.add('top-[80px]'), list.classList.add('opacity-100')) : (e.name = "menu", list.classList.remove('top-[80px]'), list.classList.remove('opacity-100'))
+        }
+    </script>
+</body>
+
+</html>
